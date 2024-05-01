@@ -1,5 +1,5 @@
 VERSION := $(shell git describe --tags --dirty)
-LDFLAGS := "-X github.com/ghokun/appletv3-iptv/internal/config.Version=$(VERSION)"
+LDFLAGS := "-X github.com/devalanche/appletv3-iptv/internal/config.Version=$(VERSION)"
 SOURCE_DIRS := internal main.go
 
 .PHONY: check-fmt
